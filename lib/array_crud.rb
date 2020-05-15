@@ -1,9 +1,9 @@
 def create_an_empty_array
-   ["Blue" , "Red" , "Green" , "Black"]
+   []
 end
 
 def create_an_array
-  array << element
+  array << element ["Blue" , "Red" , "Green" , "Black"]
   array.push(element)
 end
    array =["stuff" , "things" , "more"]
