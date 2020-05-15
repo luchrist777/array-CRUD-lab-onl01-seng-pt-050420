@@ -5,18 +5,18 @@ end
 def create_an_array
   ["Blue" , "Red" , "Green" , "Black"]
 end
-  array << element 
-  array.push(element) array =["stuff" , "things" , "more"]
+  
 def add_element_to_end_of_array(array, element)
-  element add to the end
+   array << element 
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  array.shift
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
